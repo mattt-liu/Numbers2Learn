@@ -25,7 +25,7 @@ def degrade(points):
             avg = float((x1y1+x1y2+x2y1+x2y2)/4)
 ##            if avg!=0: 
 ##                avg = (x1y1+x1y2+x2y1+x2y2+1)/5
-##            if (avg>=1): avg = 1
+            if (avg>=1): avg = 1
 ##            p.append(avg)
                 
         newPoints.append(p)
